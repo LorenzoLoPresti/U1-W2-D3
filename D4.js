@@ -194,7 +194,7 @@ while (i < starWarsCharacters.length) {
      massaTotale += massa   
    }
   i++
-}
+};
 
 console.log('esercizio 6:', massaTotale);
 
@@ -235,7 +235,7 @@ switch (true) {
     console.log('esercizio 7: Warning: Load is over 700');
     break
   default:
-   
+   console.log('no problem detected');
     break;
 }
 
@@ -263,14 +263,14 @@ Usa uno più for loop per raggiungere il risultato
 Una volta fatto, crea un console.log() per controllare la proprietà length di "characters" prima e dopo l'operazione
 */
 
-console.log(characters);
+// console.log(characters);
 
-for (let i = 0; i < femaleCharacters.length; i++){
-  if (femaleCharacters[i].name === characters[i].name) {
-    delete characters[i].name
-  }
-}
-console.log(characters);
+// for (let i = 0; i < femaleCharacters.length; i++){
+//   if (femaleCharacters[i].name === characters[i].name) {
+//     delete characters[i].name
+//   }
+// }
+// console.log(characters);
 
 /* EXTRA ESERCIZIO 10
 
